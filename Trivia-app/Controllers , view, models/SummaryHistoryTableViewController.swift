@@ -65,7 +65,7 @@ class SummaryHistoryTableViewController: UITableViewController {
     
     func saveToHistory() {
         // formatting date before saving the history.
-        let dateTime = Date().localDate()
+        let dateTime = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd MMM HH:mm a"
         let dateTimeString = dateFormatter.string(from: dateTime)
@@ -75,16 +75,5 @@ class SummaryHistoryTableViewController: UITableViewController {
             previousHistory?.append(historyElement)
         }
         History.saveHistories(data: previousHistory)
-    }
-}
-
-// to show the local date.
-extension Date {
-    func localDate() -> Date {
-        let nowUTC = Date()
-        let timeZoneOffset = Double(TimeZone.current.secondsFromGMT(for: nowUTC))
-        guard let localDate = Calendar.current.date(byAdding: .second, value: Int(timeZoneOffset), to: nowUTC) else {return Date()}
-
-        return localDate
     }
 }
