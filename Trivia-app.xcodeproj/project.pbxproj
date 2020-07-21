@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C02710A24C6096100982A6E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02710924C6096100982A6E /* QuestionViewController.swift */; };
+		4C02710C24C6214E00982A6E /* SummaryHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C02710B24C6214E00982A6E /* SummaryHistoryTableViewController.swift */; };
 		4C4A287224C5D56E00681CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A287124C5D56E00681CBE /* AppDelegate.swift */; };
 		4C4A287424C5D56E00681CBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A287324C5D56E00681CBE /* SceneDelegate.swift */; };
 		4C4A287624C5D56E00681CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A287524C5D56E00681CBE /* ViewController.swift */; };
 		4C4A287924C5D56E00681CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A287724C5D56E00681CBE /* Main.storyboard */; };
 		4C4A287B24C5D56F00681CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A287A24C5D56F00681CBE /* Assets.xcassets */; };
 		4C4A287E24C5D56F00681CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A287C24C5D56F00681CBE /* LaunchScreen.storyboard */; };
+		4C82E29324C65CAF008BEE7E /* History+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82E29124C65CAF008BEE7E /* History+CoreDataClass.swift */; };
+		4C82E29424C65CAF008BEE7E /* History+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82E29224C65CAF008BEE7E /* History+CoreDataProperties.swift */; };
+		4C82E29924C66BC8008BEE7E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82E29824C66BC8008BEE7E /* Models.swift */; };
+		4C82E29B24C66C08008BEE7E /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82E29A24C66C08008BEE7E /* TableViewCells.swift */; };
+		4CE7F3C624C641B5005941D2 /* DataModel.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 4C1F75AF24C5EBB900D66594 /* DataModel.xcdatamodeld */; };
+		4CE7F3C824C65393005941D2 /* TriviaManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7F3C724C65393005941D2 /* TriviaManagedObjectContext.swift */; };
+		4CE7F3CA24C65586005941D2 /* History+Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7F3C924C65586005941D2 /* History+Core.swift */; };
+		4CE7F3CE24C6567D005941D2 /* NSManagedObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE7F3CD24C6567D005941D2 /* NSManagedObject+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C02710924C6096100982A6E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		4C02710B24C6214E00982A6E /* SummaryHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryHistoryTableViewController.swift; sourceTree = "<group>"; };
+		4C1F75B024C5EBB900D66594 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		4C4A286E24C5D56D00681CBE /* Trivia-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A287124C5D56E00681CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C4A287324C5D56E00681CBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,13 @@
 		4C4A287A24C5D56F00681CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4A287D24C5D56F00681CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4A287F24C5D56F00681CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C82E29124C65CAF008BEE7E /* History+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "History+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4C82E29224C65CAF008BEE7E /* History+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "History+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4C82E29824C66BC8008BEE7E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4C82E29A24C66C08008BEE7E /* TableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
+		4CE7F3C724C65393005941D2 /* TriviaManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManagedObjectContext.swift; sourceTree = "<group>"; };
+		4CE7F3C924C65586005941D2 /* History+Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "History+Core.swift"; sourceTree = "<group>"; };
+		4CE7F3CD24C6567D005941D2 /* NSManagedObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,49 @@
 		4C4A287024C5D56D00681CBE /* Trivia-app */ = {
 			isa = PBXGroup;
 			children = (
-				4C4A287124C5D56E00681CBE /* AppDelegate.swift */,
-				4C4A287324C5D56E00681CBE /* SceneDelegate.swift */,
-				4C4A287524C5D56E00681CBE /* ViewController.swift */,
-				4C4A287724C5D56E00681CBE /* Main.storyboard */,
+				4C82E29624C66B76008BEE7E /* Skeleton */,
+				4C82E29724C66B89008BEE7E /* Controllers , view, models */,
+				4C82E29524C66B57008BEE7E /* Core Data */,
 				4C4A287A24C5D56F00681CBE /* Assets.xcassets */,
 				4C4A287C24C5D56F00681CBE /* LaunchScreen.storyboard */,
 				4C4A287F24C5D56F00681CBE /* Info.plist */,
 			);
 			path = "Trivia-app";
+			sourceTree = "<group>";
+		};
+		4C82E29524C66B57008BEE7E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C1F75AF24C5EBB900D66594 /* DataModel.xcdatamodeld */,
+				4CE7F3C924C65586005941D2 /* History+Core.swift */,
+				4CE7F3C724C65393005941D2 /* TriviaManagedObjectContext.swift */,
+				4CE7F3CD24C6567D005941D2 /* NSManagedObject+Extension.swift */,
+				4C82E29124C65CAF008BEE7E /* History+CoreDataClass.swift */,
+				4C82E29224C65CAF008BEE7E /* History+CoreDataProperties.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		4C82E29624C66B76008BEE7E /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A287124C5D56E00681CBE /* AppDelegate.swift */,
+				4C4A287324C5D56E00681CBE /* SceneDelegate.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		4C82E29724C66B89008BEE7E /* Controllers , view, models */ = {
+			isa = PBXGroup;
+			children = (
+				4C4A287724C5D56E00681CBE /* Main.storyboard */,
+				4C4A287524C5D56E00681CBE /* ViewController.swift */,
+				4C02710924C6096100982A6E /* QuestionViewController.swift */,
+				4C02710B24C6214E00982A6E /* SummaryHistoryTableViewController.swift */,
+				4C82E29824C66BC8008BEE7E /* Models.swift */,
+				4C82E29A24C66C08008BEE7E /* TableViewCells.swift */,
+			);
+			path = "Controllers , view, models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE7F3C624C641B5005941D2 /* DataModel.xcdatamodeld in Resources */,
 				4C4A287E24C5D56F00681CBE /* LaunchScreen.storyboard in Resources */,
 				4C4A287B24C5D56F00681CBE /* Assets.xcassets in Resources */,
 				4C4A287924C5D56E00681CBE /* Main.storyboard in Resources */,
@@ -138,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C82E29924C66BC8008BEE7E /* Models.swift in Sources */,
+				4C82E29B24C66C08008BEE7E /* TableViewCells.swift in Sources */,
+				4C02710C24C6214E00982A6E /* SummaryHistoryTableViewController.swift in Sources */,
+				4CE7F3C824C65393005941D2 /* TriviaManagedObjectContext.swift in Sources */,
 				4C4A287624C5D56E00681CBE /* ViewController.swift in Sources */,
+				4C02710A24C6096100982A6E /* QuestionViewController.swift in Sources */,
+				4C82E29424C65CAF008BEE7E /* History+CoreDataProperties.swift in Sources */,
+				4CE7F3CA24C65586005941D2 /* History+Core.swift in Sources */,
 				4C4A287224C5D56E00681CBE /* AppDelegate.swift in Sources */,
+				4CE7F3CE24C6567D005941D2 /* NSManagedObject+Extension.swift in Sources */,
+				4C82E29324C65CAF008BEE7E /* History+CoreDataClass.swift in Sources */,
 				4C4A287424C5D56E00681CBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +402,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C1F75AF24C5EBB900D66594 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C1F75B024C5EBB900D66594 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 4C1F75B024C5EBB900D66594 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4C4A286624C5D56D00681CBE /* Project object */;
 }
