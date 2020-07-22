@@ -16,7 +16,6 @@ class SummaryHistoryTableViewController: UITableViewController {
     var previousHistory: [HistoryElement]?
     
     //MARK: Properties
-    
     class func controller(name: String?, questions: [QuestionDetails]?, isSummaryPage: Bool, previousHistory: [HistoryElement]?) -> SummaryHistoryTableViewController {
         let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SummaryHistoryVC") as! SummaryHistoryTableViewController
         controller.name = name ?? ""
